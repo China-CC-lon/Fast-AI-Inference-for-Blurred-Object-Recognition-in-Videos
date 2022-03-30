@@ -1,0 +1,12 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "YOLOX.xmodel",
+    "kernel": [
+        "subgraph_YOLOX__YOLOX_YOLOPAFPN_backbone__CSPDarknet_backbone__Focus_stem__BaseConv_conv__Conv2d_conv__input_2",
+        "subgraph_YOLOX__YOLOX_YOLOPAFPN_backbone__BaseConv_bu_conv1__Conv2d_conv__input_156",
+        "subgraph_YOLOX__YOLOX_YOLOXHead_head__Conv2d_reg_preds__ModuleList_2__17716",
+        "subgraph_YOLOX__YOLOX_YOLOXHead_head__17548",
+        "subgraph_YOLOX__YOLOX_YOLOXHead_head__17356"
+    ],
+    "target": "DPUCVDX8H_ISA1_F2W2"
+}
